@@ -16,4 +16,11 @@ describe('About component', () => {
         const { asFragment } = render(<About />);
         expect(asFragment()).toMatchSnapshot();
     })
-})
+});
+
+describe('links are visible', () => {
+    it('inserts text into the links', () => {
+      // Arrange
+      // Assert
+    });
+  })
